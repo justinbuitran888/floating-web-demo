@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.crm-container {
+  padding: 20px;
+}
+
+/* Header Section */
+.crm-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  color: white;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.header-left h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.header-left .date {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.timeline {
+  display: flex;
+  gap: 10px;
+}
+
+.time-slot {
+  background: #444;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.time-slot.active {
+  background: #57d4a7;
+  color: white;
+}
+
+.header-profile .profile-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* Workspace */
+.workspace-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.workspace-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.add-task {
+  background: #222;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.deals-summary {
+  text-align: right;
+}
+
+.deals-summary h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.deals-summary .won {
+  color: green;
+}
+
+.deals-summary .lost {
+  color: red;
+}
+
+/* Leads Section */
+.leads-section {
+  margin-bottom: 30px;
+}
+
+.lead-cards {
+  display: flex;
+  gap: 15px;
+}
+
+.lead-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  text-align: center;
+}
+
+.lead-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.tags .tag {
+  padding: 5px 10px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 15px;
+  font-size: 12px;
+  color: white;
+  margin-right: 5px;
+}
+
+.tag.linkedin {
+  background: #0e76a8;
+}
+
+.tag.email {
+  background: #e67e22;
+}
+
+.tag.facebook {
+  background: #3b5998;
+}
+
+/* Tasks Section */
+.tasks-section {
+  margin-bottom: 20px;
+}
+
+.task-cards {
+  display: flex;
+  gap: 15px;
+}
+
+.task-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-card.green {
+  background: #57d4a7;
+  color: white;
+}
+
+.task-card .status {
+  font-weight: bold;
+}
